@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    background: url(sepatu.jpg) no-repeat;
+    background-size: cover;
+   }
+
+.table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(70, 57, 57, 0.705);
+    color: white;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Center align table headers */
+  .table th {
+    text-align: center;
+  }
+  .sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgba(70, 57, 57, 0.5);
+    /* background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5); */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar .side-header{
+        margin-left: 30px;
+        margin-bottom: 8px;
+        color: #fff;
+    }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    background-color: rgba(70, 57, 57, 0.5);
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    font-size: 34px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    background-color:#0000;
+  }
+  
+  .openbtn:hover {
+    color: #ECDAC9;
+  }
+  .button-edit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #28a745; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 8px 16px; /* Padding around the text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.button-edit:hover {
+    background-color: #218838; /* Darker green color on hover */
+}
+.btn-secondary {
+    background-color: #6c757d81; /* Custom background color */
+    color: #fff; /* Custom text color */
+    height: 40px; /* Custom height */
+    /* Add any additional styles as needed */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Custom background color on hover */
+    /* Add any additional styles for hover state */
+}
+.form_select {
+  width: 150px; /* Set the width of the dropdown */
+  margin-right: 10px; /* Add some right margin */
+}
+
+.btn.Status {
+  margin-top: 10px;
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Add cursor pointer on hover */
+}
+
+.btn.Status:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.buttonedit {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #28a745; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 8px 16px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.buttonedit:hover {
+  background-color: #218838; /* Darker green color on hover */
+}
+
+.buttondelete {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #FE0000; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 8px 16px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.buttodelete:hover {
+  background-color: #B70404; /* Darker green color on hover */
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  background-color:rgba(70, 57, 57, 0.5);;
+  color: #ffffff; /* Warna teks putih */
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid white ;
+  margin: 0 4px;
+  border-radius: 4px;
+}
+
+.pagination a.active {
+  background-color: #3b4a5a;
+  color: #fff;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}

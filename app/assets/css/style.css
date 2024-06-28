@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(sepatu.jpg) no-repeat;
+    background: url(sepatu.jpg) no-repeat; 
     background-size: cover;
     background-position: center;
 }
@@ -27,6 +27,40 @@ header {
     z-index: 99;
 
 }
+
+
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text span{
+    letter-spacing: 3px;
+}
+.h-text h1{
+    font-size: 2.5em;
+}
+.h-text a{
+    text-decoration: none;
+    
+    background: #E34BB7;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 3px;
+    transition: 0.4s;
+    border-radius: 6px;
+
+}
+.h-text a:hover{
+    border: 1px solid #E34BB7;
+    background: #fff;
+    color: #E34BB7;
+}
+
 
 .logo {
     font-size: 2em;
@@ -138,7 +172,7 @@ header {
 }
 
 .wrapper.active {
-    height: 520px;
+    height: 570px;
 }
 
 .wrapper .form-box {
@@ -256,5 +290,37 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
     
+}
+.wrapperadmin {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background:fixed;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .form-box.admin {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.wrapper.active .form-box.admin {
+    transition: none;
+    transform: translateX(-400px);
+
+}
+
+.wrapper.active {
+    height: 570px;
+}
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
 }
 
